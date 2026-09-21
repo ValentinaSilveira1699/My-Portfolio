@@ -1,75 +1,52 @@
-# React + TypeScript + Vite
+# Valentina Silveira — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio website showcasing my experience, projects, and technical skills as a Computer Science graduate and Software Developer.
 
-Currently, two official plugins are available:
+## 🌐 Portfolio
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[View my portfolio]TBD
 
-## React Compiler
+## 👩🏻‍💻 About Me
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+I am a Computer Science graduate from Georgia Southern University with experience in software development, web development, technical support, and application troubleshooting.
 
-## Expanding the ESLint configuration
+I enjoy building software that combines clean user experiences with practical functionality.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠️ Technologies
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- React
+- TypeScript
+- JavaScript
+- HTML5
+- CSS3
+- Python
+- Java
+- C#
+- .NET
+- SQL
+- Node.js
+- Git & GitHub
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 📂 Featured Projects
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Val's Haul
+Full-stack e-commerce web application built with HTML, CSS, JavaScript, Node.js, and Express.
 
-```
+### Trace Track
+Augmented reality racing game combining Python, OpenCV, ArUco marker tracking, PyOpenGL, and JetBot robotics.
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+### Way to Heaven
+Puzzle game developed with PuzzleScript and HTML5.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 💻 Built With
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- React
+- TypeScript
+- Vite
+- React Router
+- CSS
 
-```
+## 📫 Contact
+
+- LinkedIn: [Valentina Silveira]https://www.linkedin.com/in/valentina-silveira-7957a61b6/
+- GitHub: [ValentinaSilveira1699][(YOUR_GITHUB_URL)](https://github.com/ValentinaSilveira1699/
